@@ -19,7 +19,7 @@ class App extends Component {
 
 	render() {
 		const filteredRobots =this.state.robots.filter(robot => {
-			return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) // only includes what was searched in teh field
+			return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase()); // only includes what was searched in teh field
 		})
 			return (
 			<div className='tc'>
